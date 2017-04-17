@@ -1,0 +1,28 @@
+{
+  "name": "node-sample-qrcode-tiff",
+  "version": "1.0.0",
+  "description": "a small sample script to generate tiff files of qrcode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasukuUno/node-sample-qrcode-tiff.git"
+  },
+  "keywords": [
+    "tiff",
+    "qrcode"
+  ],
+  "author": "TasukuUno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasukuUno/node-sample-qrcode-tiff/issues"
+  },
+  "homepage": "https://github.com/TasukuUno/node-sample-qrcode-tiff#readme",
+  "dependencies": {
+    "imagemagick": "^0.1.3",
+    "qrious": "^2.2.0"
+  }
+}
